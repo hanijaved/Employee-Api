@@ -41,5 +41,3 @@ Made by:
 Hani Javed (346291)
 Alishba Riyaz (336310)
 
-```bash
-pip install -r requirements.txt
