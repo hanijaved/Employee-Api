@@ -74,3 +74,8 @@ def delete_employee(employee_id: int):
             write_employees(employees)
             return {"message": "Employee deleted"}
     raise HTTPException(status_code=404, detail="Employee not found")
+
+# ---------- Run with Python ----------
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
